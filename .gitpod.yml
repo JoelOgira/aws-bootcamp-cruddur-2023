@@ -4,6 +4,8 @@ vscode:
 
     - cweijan.vscode-mysql-client2
 
+    - cweijan.dbclient-jdbc
+
 tasks:
   - name: aws-cli
     env: 
