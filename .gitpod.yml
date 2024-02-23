@@ -1,9 +1,6 @@
 vscode:
   extensions:
     - 42Crunch.vscode-openapi
-
-    - cweijan.vscode-mysql-client2
-
     - cweijan.dbclient-jdbc
 
 tasks:
@@ -26,7 +23,7 @@ tasks:
 
 ports:
   - name: frontend
-    port: 3003
+    port: 3005
     onOpen: open-browser
     visibility: public
   - name: backend
