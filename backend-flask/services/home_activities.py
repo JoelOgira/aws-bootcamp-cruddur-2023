@@ -1,6 +1,9 @@
 from datetime import datetime, timedelta, timezone
 class HomeActivities:
-  def run():
+  def run(logger):
+
+    # -------- This is needed for cloud watch logger to work so just uncomment it
+    # logger.info('HomeActivities')
     now = datetime.now(timezone.utc).astimezone()
     results = [{
       'uuid': '68f126b0-1ceb-4a33-88be-d90fa7109eee',
