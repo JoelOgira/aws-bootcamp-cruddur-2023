@@ -34,8 +34,10 @@ ports:
   - name: backend
     port: 4567
     visibility: public
-  - name: xray-daemon
-    port: 2000
-    visibility: public
+
+    # -------- This is needed for x-ray to work so just uncomment it
+  # - name: xray-daemon
+    # port: 2000
+    # visibility: public
 
 
